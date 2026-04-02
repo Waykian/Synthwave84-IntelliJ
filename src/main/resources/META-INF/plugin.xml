@@ -1,11 +1,11 @@
 <idea-plugin>
-    <id>com.github.dsandi.synthwave84</id>
+    <id>com.github.waykian.synthwave84</id>
     <name>SynthWave '84</name>
-    <vendor email="user@example.com" url="https://github.com/dsandi/synthwave84-jetbrains">dsandi</vendor>
+    <vendor email="lavignagiovanni2@gmail.com" url="https://github.com/Waykian/synthwave84-jetbrains">Waykian</vendor>
 
     <description><![CDATA[
     SynthWave '84 Theme for JetBrains IDEs.<br>
-    A port of the popular VS Code theme.
+    The ultimate retro-futuristic theme, now fully compatible with IntelliJ IDEA 2026.1+
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>

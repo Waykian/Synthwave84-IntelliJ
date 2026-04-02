@@ -1,19 +1,24 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.17.2"
+    id("org.jetbrains.intellij.platform") version "2.13.1"
 }
 
-group = "com.github.dsandi.synthwave84"
-version = "1.0.0"
+group = "com.github.waykian.synthwave84"
+version = "2.0.0"
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+        intellijDependencies()
+    }
 }
 
-intellij {
-    version.set("2023.2.5")
-    type.set("IC") // IntelliJ Community Edition
-    plugins.set(listOf("com.intellij.java"))
+dependencies {
+    intellijPlatform {
+        intellijIdeaCommunity("2024.1")
+        bundledPlugin("com.intellij.java")
+    }
 }
 
 tasks {
@@ -21,8 +26,9 @@ tasks {
         sourceCompatibility = "17"
         targetCompatibility = "17"
     }
+
     patchPluginXml {
-        sinceBuild.set("232")
-        untilBuild.set("255.*")
+        sinceBuild.set("261")
+        untilBuild.set("")
     }
 }

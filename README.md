@@ -8,7 +8,7 @@
 ![Gradle](https://img.shields.io/badge/Gradle-9.0-02303A?style=for-the-badge&logo=gradle)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-<img src="https://github.com/Waykian/Synthwave84-IntelliJ/blob/main/il_570xN.6451862677_bk07.jpg" alt="Neon Banner" width="100%">
+<img src="https://github.com/Waykian/Synthwave84-IntelliJ/blob/main/gsd_cyberpunk_blade_runner_city_conceptize_building_neon_dystopia_genis_salvador_car.jpg" alt="Neon Banner" width="100%">
 
 *Neon lights. Grid lines. Code that pulses like the city at 3 AM.*
 

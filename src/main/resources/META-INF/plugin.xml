@@ -1,10 +1,10 @@
 <idea-plugin>
     <id>com.github.waykian.synthwave84</id>
-    <name>SynthWave '84</name>
-    <vendor email="lavignagiovanni2@gmail.com" url="https://github.com/Waykian/synthwave84-jetbrains">Waykian</vendor>
+    <name>SynthWave '84 - Neon Overdrive</name>
+    <vendor url="https://github.com/Waykian/synthwave84-jetbrains">Waykian</vendor>
 
     <description><![CDATA[
-    SynthWave '84 Theme for JetBrains IDEs.<br>
+    SynthWave '84 Theme for JetBrains IDEs - Neon Overdrive Edition<br>
     The ultimate retro-futuristic theme, now fully compatible with IntelliJ IDEA 2026.1+
     ]]></description>
 
